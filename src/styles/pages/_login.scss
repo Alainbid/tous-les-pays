@@ -1,0 +1,96 @@
+.login-container {
+ 
+  *{
+    
+    height: 100%;
+  }
+  
+  .titr{
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 20px;
+    font-size: 2.5rem;
+  }
+ .sgup {
+  border-radius: 20px;
+    text-align: right;
+    background-color: aqua;
+   padding: 12px;
+   font-size: 1.8rem;
+   margin-left: 40px;
+  }
+
+ .sgin {
+  border-radius: 20px;
+    text-align: right;
+    background-color: aqua;
+   padding: 12px;
+   font-size: 1.8rem;
+   margin-left: 40px;
+  }
+
+ .lgout {
+  border-radius: 20px;
+    text-align: right;
+    background-color: red;
+   padding: 12px;
+   font-size: 1.8rem;
+   margin-left: 40px;
+  }
+
+
+
+.bloc{
+  margin-top: 20px;
+  display: table;
+  height: 100%;
+  width: 100%;
+ 
+
+}
+
+
+  form {
+    width: 500px;
+    padding-top: 40px;
+    background-color:rgb(234, 227, 219);
+      margin: 0 auto;
+     text-align: right;
+    
+  }
+  
+
+
+    input {
+      border: 2px black ;
+      border-radius: 14px;
+      width: 240px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-right: 20px;
+      font-size: 1rem;
+      padding: 8px;
+      vertical-align: 40px;
+      background-color: white;
+    }
+
+    
+    label{
+      background-color: rgb(234, 227, 219);
+      font-size: 1.4em;
+      padding-right: 10px;
+      vertical-align: 40px;
+      
+    }
+
+    .valider {
+      border-color: rgb(0, 0, 0);
+      border: 2px;
+      
+      border-radius: 18px;
+      width: 100px;
+      background-color: white;
+    }
+  
+}
+
