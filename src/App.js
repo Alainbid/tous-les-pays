@@ -11,8 +11,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        {/* ** modifier  en Home pour ne pas charger le login * */}
-        <Route path="/login" element={<Home />}></Route>
+        <Route path="/login" element={<Login />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="*" element={<Erreur404 />}></Route>

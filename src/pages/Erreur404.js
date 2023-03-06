@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation";
 const Erreur404 = () => {
   return (
     <div style={{ textAlign: "center" }}>
+    <Navigation />
       <h1>ERREUR 404</h1>
 
       <div>
