@@ -1,11 +1,11 @@
 .logo {
   @include verticalCenter;
   margin: 5px auto;
-  width: 200px;
+  width: 240px;
   border-radius: 20px;
   padding: 5px 0;
   box-shadow: 0 2px 3px rgba(53, 50, 50, 0.307);
-  background: url(../../assets/img/Bouddha.jpg) center/cover;
+  background: url(../../assets/img/Bouddha.jpg) center/cover ;
 
   img {
     height: 40px;
@@ -13,7 +13,7 @@
     h3 {
       padding-left: 20px;
    
-    color: white;
+    color: rgb(88, 225, 253);
   }
 
 

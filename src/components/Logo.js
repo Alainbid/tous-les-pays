@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div className="logo">
       <img src="./logo190.png" alt="icon" />
-      <h3>PAYS-react</h3>
+      <h3>PAYS du monde</h3>
     </div>
   );
 };

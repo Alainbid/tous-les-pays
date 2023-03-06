@@ -47,19 +47,19 @@ const Login = () => {
           type="text"
           placeholder="Nom"
           onChange={(e) => setAuthor(e.target.value)}
-          value={author} // pour RAZ de la zone de saisie nom
+          // value={author} // pour RAZ de la zone de saisie nom
         />
         <input
           type="email"
           placeholder="Email"
           onChange={(e) => setAuthor(e.target.value)}
-          value={author} // pour RAZ de la zone de saisie nom
+          // value={author} // pour RAZ de la zone de saisie nom
         />
         <input
           type="password"
           placeholder="Password"
           onChange={(e) => setAuthor(e.target.value)}
-          value={author} // pour RAZ de la zone de saisie nom
+          // value={author} // pour RAZ de la zone de saisie nom
         />
 
         {erreur && <p>Veuillez écrire au moins 6 caractères</p>}

@@ -17,7 +17,7 @@ const Countries = () => {
 
   return (
     <div className="countries">
-      <h1>Tous les pays du monde</h1>
+      <h2>Tous les pays du monde</h2>
       <ul className="radio-container">
         <input
           type="range"
@@ -27,6 +27,8 @@ const Countries = () => {
           defaultValue={rangeValue}
           onChange={(e) => setRangeValue(e.target.value)}
         />
+        {/* <li> { document.getElementsByClassName("card").length} pays</li> */}
+        <li> {rangeValue} pays</li>
         {btnRadios.map((continent) => (
           <li>
             <input
@@ -35,6 +37,7 @@ const Countries = () => {
               name="btnRadio"
               checked={continent === selectedRadio}
               onChange={(e) => {
+                setRangeValue(document.getElementsByClassName("card").length)
                 setSelectedRadio(e.target.id);
               }}
             />
@@ -59,10 +62,12 @@ const Countries = () => {
           .filter((country) => country.continents[0].includes(selectedRadio))
           .sort((a, b) => b.poputation - a.population)
           .slice(0, rangeValue)
-          .map((country, index) => (
+          .map((country, index)  => (
             <Card key={index} pays={country} />
           ))}
+            
       </ul>
+     
     </div>
   );
 };
